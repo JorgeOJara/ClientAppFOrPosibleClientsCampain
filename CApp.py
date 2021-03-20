@@ -1,7 +1,11 @@
 import json 
 import os
-from tkinter import *
-from tkinter import messagebox
+try:
+	from tkinter import *
+	from tkinter import messagebox
+except:
+	import Tkinter
+	
 # filenameYouwannaOpen 
 # variable will create or open a file with the name you specified...
 
