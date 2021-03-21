@@ -1,10 +1,11 @@
 import json 
 import os
-try:
-	from tkinter import *
-	from tkinter import messagebox
-except:
-	import Tkinter
+
+# import tkinter from python libs
+# you neee python 3.9.2,to run...
+
+from tkinter import *
+from tkinter import messagebox
 	
 # filenameYouwannaOpen 
 # variable will create or open a file with the name you specified...
