@@ -10,3 +10,4 @@ App to Manage possible clients campaigns
      
      #Name of file content.json
      
+     #need version 3.9.2 of python.... to run
