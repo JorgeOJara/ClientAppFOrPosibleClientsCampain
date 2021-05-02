@@ -178,7 +178,7 @@ def goFindTheData():
 		messagebox.showinfo('error','Give me something to find')
 	else:
 		for numberToCheckAllObjectsInsideArray in range(len(dataContainerReCall)):
-			for x in dataContainerReCall[numberToCheckAllObjectsInsideArray]["Phone"]:
+			for x in range(len(dataContainerReCall[numberToCheckAllObjectsInsideArray]["Phone"])):
 				if x != number:
 					print("not a client phone Number")
 					for Y in dataContainerReCall[numberToCheckAllObjectsInsideArray]["Landline"]:
